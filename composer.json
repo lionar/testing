@@ -1,0 +1,37 @@
+{
+	"name": "lionar/testing",
+	"version": "0.0.1",
+	"description": "Testing library.",
+	"keywords": [ "Lionar", "Testing" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "lionar@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+		
+  	},
+	"require-dev": {
+		
+	},
+	"autoload": {
+    	"psr-4": {
+			"testing\\": "source"
+   	 	},
+   	 	"files": [
+   	 		"helpers.php"
+   	 	]
+  	},
+	"autoload-dev": {
+    	"psr-4": {
+			"testing\\tests\\": "tests"
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
